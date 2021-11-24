@@ -1,4 +1,5 @@
 # GH_auto
+This is not fully automated.
 
 ## Setup:
 ```shell
