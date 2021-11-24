@@ -10,8 +10,19 @@ function nbranch() {
     fi
 }
 
-# This func deletes all branches except default, stable and current
+# This func deletes all branches except stable, current and default
 function rmabranch() {
     defBr=`git config --global init.defaultBranch`
     git branch | grep -v "stable\|*" | grep -v $defBr | xargs git branch -D
+}
+
+function adcomall() {
+    if [ -z $1 ]; then
+        echo "Error: no commit message is entered"
+    else
+        echo "all modified file added"
+        git add .
+        echo "commiting with message -> $1"
+        git commit -m "$1"
+    fi
 }
