@@ -26,3 +26,12 @@ function adcomall() {
         git commit -m "$1"
     fi
 }
+
+function ghsync() {
+    git pull
+}
+
+function ghdpush() {
+    defBr=`git config --global init.defaultBranch`
+    git push origin $defBr
+}
