@@ -1,5 +1,5 @@
 # GH_auto
-This is not fully automated.
+This is not fully automated. Because I need to figure out how to use expect scripts. 
 
 ## Setup:
 ```shell
@@ -10,7 +10,7 @@ source scripts.sh
 
 ## Usage:
 ```bash
-# To run the script type in:
+# To run the type in commands:
 nbranch "<branch name>" # to create new branch
 rmabranch # to delete all branches except stable? current and default
 addcomall <message> # to add all files in current directory and commit with message
