@@ -1,5 +1,4 @@
-# GH_auto
-This is not fully automated. Because I need to figure out how to use expect scripts. 
+# Git made easy???
 
 ## Setup:
 ```shell
