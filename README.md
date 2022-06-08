@@ -1,4 +1,5 @@
-# Git made easy???
+# Git and shell
+My small experiment with shel scripts
 
 ## Setup:
 ```shell
