@@ -1,5 +1,5 @@
 # Git and shell
-My small experiment with shel scripts
+My small experiment with shell scripts
 
 ## Setup:
 ```shell
