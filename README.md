@@ -3,8 +3,8 @@ My small experiment with shell scripts
 
 ## Setup:
 ```shell
-git clone "https://github.com/TerraBoii/GH_auto.git"
-cd GH_auto
+git clone "https://github.com/TerraBoii/git_and_shell.git"
+cd git_and_shell
 source scripts.sh
 ```
 
