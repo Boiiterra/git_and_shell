@@ -1,5 +1,5 @@
 # Git and shell
-My small experiment with shell scripts
+My small experiment with shell scripts that makes some git commands shorter.
 
 ## Setup:
 ```shell
